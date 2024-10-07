@@ -1,0 +1,210 @@
+/* LAYOUT */
+
+* {
+    box-sizing: border-box;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+header {
+    width: 100%;
+    height: 125px;
+    position: fixed;
+    background-color: #1877F2;
+    z-index: 1;
+}
+
+h1 {
+    margin-right: 5%;
+    margin-left: 12.5%;
+    width: 30%;
+    height: 125px;
+    line-height: 125px;
+}
+
+header form {
+    width: 52%;
+    height: 125px;
+    position: relative;
+    padding-left: 240px;
+}
+
+header form * {
+    margin-top: 4%;
+}
+
+header > form a {
+    position: absolute;
+    right: 195px;
+    bottom: 20px;
+}
+
+main,
+main + section {
+    height: 900px;
+    padding-top: 150px;
+}
+
+main {
+    width: 60%;
+}
+
+main + section {
+    position: relative;
+    width: 40%;
+}
+
+main h2, 
+main p {
+    margin-bottom: 60px;
+    margin-left: 20%;
+}
+
+main h2 {
+    width: 55%;
+    margin-top: 100px;
+    margin-right: 10%;
+}
+
+.name {
+    width: 35%;
+}
+
+.longInput {
+    width: 74%;
+}
+
+.shortInput {
+    width: 22%;
+}
+
+input,
+.login {   
+    height: 50px;
+}
+
+input {
+    width: 270px;
+    margin-right: 20px;
+}
+
+.login {
+    width: 150px;
+}
+
+form + p {
+    margin-top: 20px;
+    width: 74%;
+}
+
+.signUp {
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 17%;
+    bottom: 12.5%;
+}
+
+button + p {
+    position: absolute;
+    bottom: 5%;
+    left: 100px;
+}
+
+
+/* ADDITIONAL STYLES */
+
+h1,
+h2 {
+    font-size: 48px;
+}
+
+button {
+    font-size: 24px;
+}
+
+h1,
+header > form a,
+button {
+    color: white;
+}
+
+header > form a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+main p {
+    font-size: 28px;
+}
+
+h2,
+main span {
+    font-weight: bold;
+}
+
+main,
+section {
+    background-color: #F5F6F7;
+}
+
+main + section span {
+    display: block;
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+input, 
+button {
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+.login {
+    background-color: #0E52B0;
+    border: none;
+}
+
+.bday,
+.gender {
+    margin-top: 10px;
+}
+
+section form span {
+    font-size: 20px;
+}
+
+.signUp {
+    background-color: #00A400;
+    border: none;
+}
+
+section form + p {
+    color: #777777;
+}
+
+p a {
+    text-decoration: none;
+}
+
+button + p {
+    font-size: 20px;
+}
+
+section button + p a {
+    color: black;
+    font-weight: bold;
+}
+
+input::placeholder {
+    font-size: 20px;
+    padding-left: 16px;
+}
